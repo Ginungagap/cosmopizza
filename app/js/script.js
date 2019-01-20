@@ -1,8 +1,7 @@
-//плавный скролл на секцию
+//smooth scroll
 
 $(document).ready(function() {
 		$('a[href^="#"]').click(function() {
-			//Сохраняем значение атрибута href в переменной:
 			var target = $(this).attr('href');
 			$('html, body').animate({
 				scrollTop: $(target).offset().top-33
@@ -10,7 +9,7 @@ $(document).ready(function() {
 			return false;
 		});
 	});
-
+/*
 $(function(){
     $(window).scroll(function(){
         if ( $(this).scrollTop() > 210 && $(".navbar").hasClass("default") ){
@@ -20,6 +19,6 @@ $(function(){
             $(".navbar").removeClass("fixed").addClass("default");
 
         }
-    });//scroll
+    });
 
-});
+});*/
