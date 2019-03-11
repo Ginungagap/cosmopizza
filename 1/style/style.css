@@ -1,0 +1,448 @@
+	body{
+	margin:0;
+	background:url('../img/bg2.jpg');
+}
+p{
+	margin:0;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a img{
+	border: none;
+}
+form{
+	margin-bottom: 0;
+	margin-top: 0;
+	display:inline;
+}
+#container{
+	width:1000px;
+	margin: 0 auto;
+	padding: 5px 0px;
+/*	border: 1px solid green;*/
+	position: relative;
+}
+
+#header {
+	position: relative;
+	height:200px;
+	width:1000px;
+/*	border:1px solid red;*/
+}
+#header a{
+	color:#fff;
+}
+#header a:hover{
+	color:#FF9B4D;
+}
+#dost{
+	display:block;
+	width:400px;
+	margin-top: 8px;
+/*	border: 1px solid green;*/
+	position:absolute;
+	color:#FF9B4D;
+	text-align:center;
+	font-size: 22pt;
+	font-weight: bold;
+	font-family:Cambria, Arial,Verdana,Helvitica,sans-serif;
+}
+#dostif{
+	display:block;
+	width:400px;
+	margin-top: 44px;
+/*	border: 1px solid green;*/
+	position:absolute;
+	color:#FF9B4D;
+	text-align:center;
+	font-size: 16pt;
+	font-weight: bold;
+	font-family:Cambria, Arial,Verdana,Helvitica,sans-serif;
+}
+#pizzeria{
+	display:block;
+	width:400px;
+	margin-left:600px;
+	margin-top: 14px;
+/*	border: 1px solid green;*/
+	position:absolute;
+	color:#FF9B4D;
+	text-align:center;
+	font-size: 22pt;
+	font-weight: bold;
+	font-family:Cambria, Arial,Verdana,Helvitica,sans-serif;
+}
+#tel{
+	display:block;
+	width:400px;
+	margin-top: 72px;
+/*	border: 1px solid green;*/
+	position:absolute;
+	color:#fff;
+	text-align:center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family:Cambria, Arial,Verdana,Helvitica,sans-serif;
+}
+#social{
+	display:block;
+	width:400px;
+	margin-left:600px;
+	margin-top: 154px;
+/*	border: 1px solid red;*/
+	position:absolute;
+	color:#FF9B4D;
+	text-align:center;
+
+	font-size: 18pt;
+	font-family:Calibri, Arial,Verdana,Helvitica,sans-serif;
+}
+#social img{
+	vertical-align:middle;
+}
+#social span{
+	margin-left:5px;
+}
+#social a{
+	margin-left:5px;
+}
+#adr{
+	display:block;
+	margin-left:600px;
+	width:400px;
+	margin-top: 56px;
+/*	border: 1px solid green;*/
+	position:absolute;
+	color:#fff;
+	text-align:center;
+	font-size: 19pt;
+	font-family:Cambria, Arial,Verdana,Helvitica,sans-serif;
+}
+#adr2{
+	font-size: 17pt;
+}
+#adr3{
+	font-size: 16pt;
+}
+#time{
+	display:block;
+	margin-left:0px;
+	width:400px;
+	margin-top: 154px;
+/*	border: 1px solid green;*/
+	position:absolute;
+	color:#FF9B4D;
+	text-align:center;
+	font-weight: bold;
+	font-size: 20pt;
+	font-family:Calibri, Arial,Verdana,Helvitica,sans-serif;
+}
+#time img{
+	margin-right:5px;
+	margin-bottom:5px;
+	vertical-align:middle;
+}
+#logo{
+	display:block;
+	margin-left: 400px;
+	margin-top:0px;
+/*	border: 1px solid green;*/
+	position:absolute;
+}
+.clear{
+	clear:both;
+}
+#menutop {
+/*	border-top: 1px solid #FF9B4D;
+	border-bottom: 2px solid #FF9B4D;
+*/
+/*	background: rgba(0,0,0,0.8);
+*/	background:#f18734;
+	width:1000px;
+	height:34px;
+	z-index:1;
+	border-radius: 4px;
+}
+#menutop.default {
+	position: relative;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+#menutop.fixed {
+	position: fixed;
+	top:0px;
+}
+#menutop ul {
+	margin: 0px 0px;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	text-align:center;
+	display: block;
+	width:800px;
+	float:left;
+}
+
+#menutop li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+#menutop li a, #menutop #cartlink{
+/*	border-top: 2px;*/
+	padding: 0px 5px;
+	color:#fff;
+	font-size: 18pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+	    line-height: 32px;
+/*	transition: .4s ease;*/
+}
+
+#menutop a:hover, #menutop li #cartlink:hover{
+/*	border-top: 2px solid #FF9B4D;*/
+	color:#4c2e16;
+}
+
+#menutop #cartlink{
+	display: inline-block;
+	width:190px;
+	color:#aae400;
+	white-space: nowrap;
+}
+
+#lcart{
+	font-size:20px;
+	color:#fff;
+	font-family: Arial;
+}
+
+#menutop #jcart {
+	margin: 0px 0px;
+	float:right;
+	width:200px;
+}
+#menutop #jcart #cartclick{
+/*	border-top: 2px;*/
+
+	color:#fff;
+	font-size: 14pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+	
+/*	transition: .4s ease;*/
+}
+#aftermenu.default{
+	margin-top: 6px;
+}
+#aftermenu.fixed {
+	margin-top: 46px;
+}
+#contenttop {
+	border: 3px solid;
+	border-color:#ccc;
+	border-radius: 5px;
+	background:#fff9df;
+	width:694px;
+	height:200px;
+	float:left;
+}
+
+#basket {
+	margin-left: 6px;
+	padding:3px;
+	border: 3px solid;
+	border-color:#ccc;
+	border-radius: 5px;
+	background:#fff9df;
+	width:282px;
+	height:194px;
+	float:left;
+}
+
+#enter {
+	display: block;
+	margin:6px;
+	margin-left:12px;
+	color:#222;
+	font-size: 14pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+}
+#footer {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 3px solid;
+	border-color:#ccc;
+	border-radius: 5px;
+	background:#fff9df;
+}
+#footertext, #emptycart {
+	display: block;
+	margin:6px;
+	color:#222;
+	font-size: 13pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+}
+.emptycart {
+	display: block;
+	margin:6px;
+	color:#222;
+	font-size: 13pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+}
+#content {
+	display: block;
+	margin-top: 6px;
+	padding: 20px 30px;
+	color:#000;
+	font-size: 15pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+	border: 3px solid;
+	border-color:#ccc;
+	border-radius: 5px;
+	background:#fff9df;
+}
+#content p {
+	margin-bottom:8px;
+
+}
+#content p.action {
+	color:#FF9B4D;
+	font-size: 20pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+	margin-bottom:8px;
+	text-align:center;
+	font-weight:bold;
+
+}
+p.action {
+	color:#FF9B4D;
+	font-size: 18pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+	margin-bottom:8px;
+	font-weight:bold;
+}
+
+#contentorder {
+	display: block;
+	border: 1px solid green;
+	padding: 20px 30px;
+	color:#000;
+	font-size: 15pt;
+	font-family: Calibri, Arial, Helvitica, sans-serif;
+	border: 3px solid;
+	border-color:#ccc;
+	border-radius: 5px;
+	background:#fff9df;
+}
+
+.chapter {
+	color:#000;	
+	text-align:center;
+	font-size: 22pt;
+	font-weight: bold;
+	font-family: Calibri, Arial,Verdana, Helvitica,sans-serif;
+}
+.product {
+    width: 279px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin: 15px 10px 0px 10px;
+    padding: 5px;
+}
+.product:hover {
+	border: 2px solid;
+    border-color: #ffe393;
+    border-radius: 3px;
+	padding: 3px;	
+}
+.productsmall {
+    width: 279px;
+    height: 167px;
+    float: left;
+    text-align: center;
+    margin: 15px 10px 0px 10px;
+    padding: 5px;
+}
+.productsmall:hover {
+	border: 2px solid;
+    border-color: #ffe393;
+    border-radius: 3px;
+	padding: 3px;	
+}
+.name {
+	color:#a96632;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Calibri, Arial,Verdana, Helvitica,sans-serif;
+	height:23px;
+}
+.size {
+	color:#222;
+	float:right;
+	margin-right:16px;
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: Calibri, Arial,Verdana, Helvitica,sans-serif;
+}
+.prices {
+	display:block;
+
+}
+.price {
+	color: #762D0B;
+	margin-right:5px;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Calibri, Arial,Verdana, Helvitica,sans-serif;
+	text-align:center;
+}
+.price3040 {
+	color:#762D0B;
+	display:inline;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Calibri, Arial,Verdana, Helvitica,sans-serif;
+	text-align:center;
+}
+.desc {
+	color:#222;
+	font-size: 13pt;
+	font-family: Calibri, Arial,Verdana, Helvitica,sans-serif;
+	height:66px;
+	overflow-y: hidden;
+	position: relative;
+}
+.descsmall {
+	color:#222;
+	font-size: 13pt;
+	font-family: Calibri, Arial,Verdana, Helvitica,sans-serif;
+	height:33px;
+	overflow-y: hidden;
+	position: relative;
+}
+.my_add_button {
+	cursor: pointer;
+	padding: 2 6px;
+	background: #FDCF00;
+	background: linear-gradient(to bottom, #FDCF00 0%,#FF6F00 100%);
+    border-radius: 3px;
+	border: none;
+	margin: 0 5px;
+	text-align: center;
+    font-size: 14pt;
+	font-family: Calibri, Arial;
+    font-weight: bold;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.49);
+    color: #762D0B;
+}
+.my_add_button:hover {
+    background: rgb(255,111,0);
+	background: linear-gradient(to bottom, rgba(255,111,0,1) 0%,rgba(253,207,0,1) 100%);
+}
+.my_add_button:active {
+    border:none;
+}
+
