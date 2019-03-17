@@ -32,13 +32,29 @@ body {
 .navbar	a {
 	padding: 0px 5px;
 	color: #fff !important;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-family: Calibri, Arial, Helvitica, sans-serif;
 	line-height: 32px;
 }
 .navbar a:hover {
-	color: #4c2e16;
+	color: #4c2e16 !important;
 }
+
+.nav-item, .navbar-brand {
+    text-align: center;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    color: #aae400 !important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 
 /*top-bar styles*/
 @media (max-width: 576px) {
