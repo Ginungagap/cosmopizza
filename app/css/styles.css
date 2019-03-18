@@ -18,6 +18,7 @@
 body {
     background-image: url("../images/bg2.jpg");
     background-size: 100%;
+	padding: 1rem;
 }
 
 .rounded {
@@ -25,8 +26,13 @@ body {
 }
 
 /*header styles*/
+.navbar {
+	padding: 0px;
+}
+
 .navbar .container{
 	background: #f18734;
+	padding: .5rem 1rem;
 }
 
 .navbar	a {
@@ -134,9 +140,23 @@ a.navbar-brand, a.navbar-brand:hover {
 
 /*content-styles*/
 
+.slider .news, .slider .basket {
+	 border: 3px solid;
+	 border-color: #ccc;
+	 background: #fff9df;
+	margin-top: 10px;
+	min-height: 194px;
+}
+
+@media (min-width: 768px) {
+	.basket {
+		margin-left: 6px;
+	}
+}
+
+
 .content .container {
 	margin-top: 10px;
-	margin-bottom: 20px;
 	border: 3px solid;
 	border-color: #ccc;
 	background: #fff9df;
