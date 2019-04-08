@@ -63,7 +63,13 @@ a.navbar-brand, a.navbar-brand:hover {
 
 
 /*top-bar styles*/
-@media (max-width: 576px) {
+@media (max-width: 414px) {
+	.top-bar {
+		display: none;
+	}
+}
+
+@media (max-width: 575px) {
 	.phone {
 		font-size: 1.1rem !important;
 	}
@@ -138,8 +144,14 @@ a.navbar-brand, a.navbar-brand:hover {
 	object-fit: cover;
 }
 
-/*content-styles*/
+/*basket-styles*/
+@media (max-width: 767px) {
+	.basket {
+		display: none;
+	}
+}
 
+/*content-styles*/
 .slider .news, .slider .basket {
 	 border: 3px solid;
 	 border-color: #ccc;
@@ -153,7 +165,6 @@ a.navbar-brand, a.navbar-brand:hover {
 		margin-left: 6px;
 	}
 }
-
 
 .content .container {
 	margin-top: 10px;
