@@ -22,3 +22,14 @@ $(function(){
     });
 
 });*/
+
+
+$(document).ready(function() {
+    if ($(window).width() < 415) {
+        $(".basket").removeClass("col");
+        $(".basket").addClass("right-side");
+    } else {
+        $(".basket").removeClass("right-side");
+        $(".basket").addClass("col");
+    }
+});

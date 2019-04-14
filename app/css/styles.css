@@ -25,6 +25,12 @@ body {
 	border-radius: 4px;
 }
 
+@media (min-width: 415px) {
+	.mobile-show {
+		display: none;
+	}
+}
+
 /*header styles*/
 .navbar {
 	padding: 0px;
@@ -145,11 +151,17 @@ a.navbar-brand, a.navbar-brand:hover {
 }
 
 /*basket-styles*/
-@media (max-width: 767px) {
-	.basket {
-		display: none;
-	}
+
+/*@media (max-width: 767px) {*/
+	/*.basket {*/
+		/*display: none;*/
+	/*}*/
+/*}*/
+
+.basket.right-side {
+
 }
+
 
 /*content-styles*/
 .slider .news, .slider .basket {
